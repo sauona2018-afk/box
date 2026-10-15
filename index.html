@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            min-height: 100vh;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #box {
+            height: 300px;
+            width: 300px;
+            background-color: rgb(192, 192, 201);
+            color: white;
+            font-size: 60px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        @media screen and (min-width: 720px) {
+            #box {
+                background-color: rgb(58, 134, 134);
+                border-radius: 25%;
+            }
+        }
+
+        @media screen and (min-width: 1024px) {
+            #box {
+                background-color: goldenrod;
+                border-radius: 50%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div id="box">hii</div>
+    
+</body>
+</html>
